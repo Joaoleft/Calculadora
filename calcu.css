@@ -1,0 +1,45 @@
+body{
+  background-color: black;
+}
+div{
+  background-color: white;
+  width: 169px;
+  padding: 19px;
+  border-radius: 7px;
+  position: absolute;
+  left: 25%;
+  top: 20%;
+}
+h1{
+  color: black;
+}
+input{
+  padding: 14px;
+  color:red;
+  border-color: red;
+  border-radius: 4px;
+}
+h6{
+  color: dodgerblue;
+  position:absolute;
+  top: 22%;
+}
+button{
+  padding: 12px;
+  width: 181px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  height: 40px;
+}
+h3{
+  color: red;
+  
+  
+}
+p{
+  color: dodgerblue;
+  position:absolute;
+  left: 20%;
+  top: 80%;
+}

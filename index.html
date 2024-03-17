@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="calcu.css">
+  <title></title>
+</head>
+
+<body>
+  <div>
+    <h1>
+      Calculadora
+    </h1>
+    <h6>Melhor Calculadora do Mundo!!</h6>
+    <input type="number" placeholder="digite um valor" id="soma1"><br>
+    <input type="number" placeholder="digite um valor" id="soma2"><br>
+  
+    <button onclick="soma()">Calcular</button>
+    <input type="checkbox">
+    <p>clica na caixa pra avaliar</p>
+  </div>
+  
+  <h3 id="resu"></h3>
+
+</body>
+<script>
+function soma(){
+  var di = document.getElementById("soma1").value
+  var de = document.getElementById("soma2").value
+  resultado = di+de;
+  document.getElementById("resu").innerHTML=(resultado)
+  alert("sua soma e"+resultado)
+}
+
+</script>
+
+</html>
